@@ -1,0 +1,22 @@
+{
+  "name": "router-spa",
+  "version": "1.0.0",
+  "description": "Creación de una Single Page Aplication y su archivo de rutas",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JuanesGalvis/Router-SPA.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Juan Galvis <juangalvis.sh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuanesGalvis/Router-SPA/issues"
+  },
+  "homepage": "https://github.com/JuanesGalvis/Router-SPA#readme"
+}
