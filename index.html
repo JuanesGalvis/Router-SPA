@@ -7,20 +7,23 @@
 </head>
 <body>
     
-    <!-- RUTAS / VISTAS -->
     <header>
         <ul>
-            <li><button>Home</button></li>
-            <li><button>Contact</button></li>
-            <li><button>About</button></li>
+            <!-- ENVIAR LA RUTA PARA CADA BOTÓN -->
+            <li><button onclick=" router.loadRoutes('')">Home</button></li>
+            <li><button onclick=" router.loadRoutes('contacto')">Contact</button></li>
+            <li><button onclick=" router.loadRoutes('about')">About Me!</button></li>
         </ul>
     </header>
 
-    <div>
-        <h1>Hola Estudiante!</h1>
-    </div>
+    <!-- CONTENIDO -->
+    <div data-router></div>
+
+    <!-- ARCHIVOS -->
+    <script src="./router.js"></script>
+    <script src="./routes.js"></script>
+    <script src="./index.js"></script>
 
     <link rel="stylesheet" href="style.css">
-
 </body>
 </html>

@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/JuanesGalvis/Router-SPA/issues"
   },
-  "homepage": "https://github.com/JuanesGalvis/Router-SPA#readme"
+  "homepage": "https://github.com/JuanesGalvis/Router-SPA#readme",
+  "dependencies": {
+    "http-server-spa": "^1.3.0"
+  }
 }
